@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #282c34;
+  color: wheat;
+  margin: 2rem;
+}
+
+.tri1 {
+  width: 23rem;
+  height:23rem;
+  background-color: #61dafb;
+}
