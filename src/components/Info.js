@@ -4,8 +4,7 @@ function Info() {
 
     return (
         <>
-        <h1>Info</h1>
-        <h2>Cards aint working</h2>
+        <h1>Contact</h1>
         <div class="cards">
             <div class="card">
             <img class="card-img-top" src="..." alt="Card image cap"></img>
