@@ -32,6 +32,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   width: 30%;
 }
 
@@ -63,6 +64,7 @@
   display: flex;
   justify-content: center;
   border-radius: 1rem;
+  
 }
 
 .parallax  {
@@ -150,4 +152,17 @@ margin-top: 5rem;
 .infoDiv h1 {
   font-size: 4rem;
   margin: 1rem;
+}
+
+.carImage {
+  height:65%;
+  width: 65%;
+  margin: 3rem;
+  margin-left: 13.5rem;
+}
+
+.carInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
