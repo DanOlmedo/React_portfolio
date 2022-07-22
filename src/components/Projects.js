@@ -11,13 +11,13 @@ function Projects () {
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carInner">
     <div class="carousel-item active">
-      <img class="carImage" src={Cash} alt="Cash boomerang app" />
+    <a href="https://github.com/KuiiMaldonado/BCash"> <img class="carImage" src={Cash} alt="Cash boomerang app" /></a> 
     </div>
     <div class="carousel-item">
-      <img class="carImage" src={Nifty} alt="Nifty outfit creator app" />
+     <a href="https://danolmedo.github.io/Nifty-weather-responsive-outfit-generator-/"> <img class="carImage" src={Nifty} alt="Nifty outfit creator app" /> </a>
     </div>
     <div class="carousel-item">
-      <img class="carImage" src={Scheduler} alt="Day scheduler app" />
+     <a href="https://danolmedo.github.io/day_planner_homework/"> <img class="carImage" src={Scheduler} alt="Day scheduler app" /></a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
