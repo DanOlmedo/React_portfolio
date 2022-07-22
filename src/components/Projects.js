@@ -7,9 +7,9 @@ function Projects () {
     return (
         <>
         <div class="carouselDiv">
-        <div class="car">
+        <div class="car" id="car">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carInner">
     <div class="carousel-item active">
       <img class="carImage" src={Cash} alt="Cash boomerang app" />
     </div>
