@@ -3,6 +3,7 @@ import React from 'react';
 function Projects () {
     return (
         <>
+        <div class="carouselDiv">
         <div class="car">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -24,6 +25,7 @@ function Projects () {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 </div>
         </>

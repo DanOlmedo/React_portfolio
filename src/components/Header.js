@@ -5,17 +5,14 @@ function Header() {
   return (
     <>
     <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+  <li>
+    <a class="nav-btn" href="#">About me</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+  <li>
+    <a class="nav-btn" href="#">Projects</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
+  <li>
+    <a class="nav-btn" href="#">Contact</a>
   </li>
 </ul>
     </>

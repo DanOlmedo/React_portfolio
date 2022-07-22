@@ -1,46 +1,13 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .nav {
   font-size: 3rem;
+  height: 12rem;
   display: flex;
   justify-content: space-evenly;
+  color: antiquewhite;
+  position: relative;
+  padding-top: 3rem;
+  background-image: linear-gradient(to bottom, #282c34, rgb(0, 0, 0));
 }
 
 .row {
@@ -55,9 +22,10 @@
 }
 
 .card {
-  background-color: #282c34;
+  background-color: #a6a6a8;
   color: wheat;
   margin: 2rem;
+  padding: 2rem;
 }
 
 .tri1 {
@@ -66,8 +34,103 @@
   background-color: #61dafb;
 }
 
+.carouselDiv {
+  display: flex;
+  justify-content: center;
+  background-color: #0a0a0a;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .car {
   height: 30rem;
-  width: 30rem;
-  background-color: aquamarine;
+  width: 80%;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+}
+
+.parallax  {
+  width: 100%;
+  height: 100rem;
+  background-image: url("./img/roof_sil.svg");
+  background-size: cover;
+  position: relative;
+  margin-top: -10rem;
+  margin-bottom: -70rem;
+  margin-left: -0.1rem;
+  z-index: -10;
+}
+
+.content-div {
+  width: 100%;
+  height: 150vh;
+}
+
+.about {
+  background-color: #0a0a0a;
+  margin-top: -5rem;
+}
+
+#aboutMe {
+  font-size: 3.25rem;
+  color: aliceblue;
+  margin: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.intro {
+  color: aliceblue;
+  position: absolute;
+  top: 10rem;
+  margin: 5rem;
+}
+
+#greeting {
+margin-top: 5rem;
+}
+
+#name {
+  margin-top: 7rem;
+}
+
+#scroll {
+  margin-top: 10rem;
+}
+
+.nav-btn {
+  color: aliceblue;
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.graphics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+  padding-top: 3rem;
+  margin-top: -2rem;
+}
+
+#message {
+  margin: 3rem;
+  color: aliceblue;
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.infoDiv {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+.infoDiv h1 {
+  font-size: 4rem;
+  margin: 1rem;
 }

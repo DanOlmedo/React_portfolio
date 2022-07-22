@@ -4,6 +4,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Info from './components/Info';
 import Projects from './components/Projects';
+import Roof from './components/Roof';
+import Intro from './components/Intro';
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
     
     <div className="App">
       <Header />
+      <Intro />
+      <Roof />
       <About />
       <Hello />
       <Projects />

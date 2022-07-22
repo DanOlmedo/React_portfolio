@@ -4,6 +4,7 @@ function Info() {
 
     return (
         <>
+        <div class="infoDiv">
         <h1>Contact</h1>
         <div class="cards">
             <div class="card">
@@ -23,6 +24,7 @@ function Info() {
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
+            </div>
             </div>
             </div>
         </>
