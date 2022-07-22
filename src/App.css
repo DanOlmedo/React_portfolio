@@ -22,10 +22,22 @@
 }
 
 .card {
-  background-color: #a6a6a8;
-  color: wheat;
+  background-color: #767677;
+  color: aliceblue;
   margin: 2rem;
   padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.cardImg {
+  height: 10rem;
+  width: 10rem;
 }
 
 .tri1 {
@@ -40,14 +52,17 @@
   background-color: #0a0a0a;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), #282c34)
+
 }
 
 .car {
   height: 30rem;
   width: 80%;
-  background-color: #282c34;
+  background-color:#767677;
   display: flex;
   justify-content: center;
+  border-radius: 1rem;
 }
 
 .parallax  {
@@ -68,7 +83,7 @@
 }
 
 .about {
-  background-color: #0a0a0a;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), #282c34);
   margin-top: -5rem;
 }
 
@@ -113,6 +128,8 @@ margin-top: 5rem;
   background-color: #282c34;
   padding-top: 3rem;
   margin-top: -2rem;
+  background-image: linear-gradient(to bottom, #282c34, rgb(0, 0, 0))
+
 }
 
 #message {
