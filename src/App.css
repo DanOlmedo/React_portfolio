@@ -1,5 +1,10 @@
+:root {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
 body {
   background-color: rgb(0, 0, 0);
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 
@@ -68,7 +73,7 @@ body {
 }
 
 .car {
-  height: 30rem;
+  height: max-content;
   width: 80%;
   background-color:#767677;
   display: flex;
@@ -117,16 +122,39 @@ body {
 #greeting {
 margin-top: 4rem;
 font-size: 4rem;
+visibility: hidden;
+animation: greet 4s linear forwards infinite;
 }
+
+
 
 #name {
   margin-top: 6rem;
   font-size: 4rem;
+  visibility: hidden;
+  animation: greet 4s linear 2s forwards infinite;
 }
 
 #scroll {
   margin-top: 8rem;
   font-size: 4rem;
+  visibility: hidden;
+  animation: greet 4s linear 6s forwards infinite;
+}
+
+@keyframes greet {
+  0% {
+    visibility: hidden;
+    transform: rotateX(90deg);
+  }
+  50%{
+    visibility: visible;
+    transform: rotateX(0);
+  }
+  100% {
+    visibility: hidden;
+    transform: rotateX(90deg);
+  }
 }
 
 .nav-btn {
@@ -216,5 +244,99 @@ font-size: 4rem;
   .car {
     height: max-content;
   }
-
 }
+
+.sqimg {
+  /* transform-origin: 250; */
+    animation: sqimg 15s ease-in-out infinite;
+}
+
+@keyframes sqimg {
+  0%{
+
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+      transform: rotateZ(360deg); 
+  }
+}
+
+#sq1 {
+  fill: black;
+  transform-origin: 250px;
+  animation: sq1 3s linear alternate infinite;
+}
+
+#sq2 {
+  fill: black;
+  transform-origin: 250px;
+  animation: sq2 3s linear alternate infinite;
+}
+
+#sq3 {
+  fill: black;
+  transform-origin: 250px 250px;
+  animation: sq3 3s linear alternate infinite;
+}
+
+#sq4 {
+  fill: black; 
+  transform-origin: 250px 250px;
+  animation: sq4 3s linear alternate infinite;
+}
+
+@keyframes sq1 {
+  0% {
+      
+  }
+  50% {
+    transform: rotateY(90deg);
+      fill: rgb(42, 42, 209);
+  }
+  100% {
+      transform: scale(0.1);
+      fill: black;
+  }
+}
+
+ @keyframes sq2 {
+  0% {
+      
+  }
+  50% {
+    transform: rotateX(90deg);
+      fill: darkblue;
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+
+@keyframes sq3 {
+  0% {
+      
+  }
+  50% {
+    transform: rotateX(90deg);
+      fill: darkblue;
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+
+@keyframes sq4 {
+  0% {
+      
+  }
+  50% {
+    transform: rotateY(90deg);
+      fill: rgb(42, 42, 209);
+  }
+  100% {
+    transform: scale(0.1);
+      fill: black;
+  }
+} 
