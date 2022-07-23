@@ -2,6 +2,9 @@ import React from 'react';
 import Cash from '../img/Cash_boomerang.PNG';
 import Nifty from '../img/Nifty_1.PNG';
 import Scheduler from '../img/day_scheduler_1.PNG';
+import Gallery from '../img/Gallery.PNG';
+import Generator from '../img/Generator.PNG';
+import Keeper from '../img/Keeper.PNG';
 
 function Projects () {
     return (
@@ -18,6 +21,15 @@ function Projects () {
     </div>
     <div class="carousel-item">
      <a href="https://danolmedo.github.io/day_planner_homework/"> <img class="carImage" src={Scheduler} alt="Day scheduler app" /></a>
+    </div>
+    <div class="carousel-item">
+     <a href="https://danolmedo.github.io/Personal_Portfolio/"> <img class="carImage" src={Gallery} alt="Personal portfolio" /></a>
+    </div>
+    <div class="carousel-item">
+     <a href="https://github.com/DanOlmedo/README_generator"> <img class="carImage" src={Generator} alt="Readme generator" /></a>
+    </div>
+    <div class="carousel-item">
+     <a href="https://danolmedo.github.io/Score_keeeper/"> <img class="carImage" src={Keeper} alt="Score keeper" /></a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

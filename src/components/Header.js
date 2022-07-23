@@ -12,7 +12,10 @@ function Header() {
     <a class="nav-btn" href="#message">Projects</a>
   </li>
   <li>
-    <a class="nav-btn" href=".#contact">Contact</a>
+    <a class="nav-btn" href="#">Contact</a>
+  </li>
+  <li>
+    <a class="nav-btn" href=".#contact">Social</a>
   </li>
 </ul>
     </>
