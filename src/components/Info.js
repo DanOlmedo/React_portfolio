@@ -8,30 +8,30 @@ function Info() {
 
     return (
         <>
-        <div class="infoDiv">
+        <div className="infoDiv">
         <h1 id="contact">Contact</h1>
-        <div class="cards">
-            <div class="card">
+        <div className="cards">
+            <div className="card">
             <a href="https://github.com/DanOlmedo" >
-            <img class="cardImg" src={gitLogo} alt="GitHub logo"></img>
-                <div class="card-body">
-                    <p class="card-text">GitHub: DanOlmedo</p>
+            <img className="cardImg" src={gitLogo} alt="GitHub logo"></img>
+                <div className="card-body">
+                    <p className="card-text">GitHub: DanOlmedo</p>
                 </div>
                 </a>
             </div>
-            <div class="card">
+            <div className="card">
             <a href="https://www.linkedin.com/in/daniel-olmedo-91b26a153/" >
-            <img class="cardImg" src={linkedLogo} alt="LinkedIn logo"></img>
-                <div class="card-body">
-                    <p class="card-text">LinkedIn</p>
+            <img className="cardImg" src={linkedLogo} alt="LinkedIn logo"></img>
+                <div className="card-body">
+                    <p className="card-text">LinkedIn</p>
                 </div>
                 </a>
             </div>
-            <div class="card">
+            <div className="card">
             <a href={CV} >
-            <img class="cardImg" src={avatar} alt="Avatar"></img>
-                <div class="card-body">
-                    <p class="card-text">CV</p>
+            <img className="cardImg" src={avatar} alt="Avatar"></img>
+                <div className="card-body">
+                    <p className="card-text">CV</p>
                 </div>
                 </a>
             </div>

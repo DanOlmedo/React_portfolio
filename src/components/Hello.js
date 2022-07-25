@@ -10,8 +10,8 @@ function Hello() {
   // Expressions in JSX should be placed in curly braces {}
   return (
     <>
-    <div class="graphics">
-    <svg class="sqimg" width="500" height="500">
+    <div className="graphics">
+    <svg className="sqimg" width="500" height="500">
       <polygon id="sq1" points="250,496.78 6.87,253.65 250,253.65"/>
       <polygon id="sq2" points="6.87,253.65 250,10.52 250,253.65"/>
       <polygon id="sq3" points="493.13,253.65 250,496.78 250,253.65"/>

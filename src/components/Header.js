@@ -1,21 +1,22 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
 
+  console.log(props)
   return (
     <>
-    <ul class="nav">
+    <ul className="nav">
   <li>
-    <a class="nav-btn" href="#aboutMe">About me</a>
+    <a className="nav-btn" href="#" onClick={()=> props.setPage("About")}>About me</a>
   </li>
   <li>
-    <a class="nav-btn" href="#message">Projects</a>
+    <a className="nav-btn" href="#" onClick={()=> props.setPage("Projects")}>Projects</a>
   </li>
   <li>
-    <a class="nav-btn" href="#">Contact</a>
+    <a className="nav-btn" href="#">Contact</a>
   </li>
   <li>
-    <a class="nav-btn" href=".#contact">Social</a>
+    <a className="nav-btn" href=".#contact">Social</a>
   </li>
 </ul>
     </>
