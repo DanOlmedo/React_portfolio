@@ -4,7 +4,10 @@ function Contact () {
 
     return (
         <>
-        <div id="contactForm">
+        <div className="contactForm">
+            <h2>
+                Want to get in touch? Fill out the form
+            </h2>
             <h2>
                 Name
                 </h2>
@@ -17,12 +20,13 @@ function Contact () {
             <input id="emailInput" name="emailInput">
 
             </input>
-            <h3>
+            <h2>
                 Message
-            </h3>
+            </h2>
             <textarea id="textInput" name="textInput">
 
             </textarea>
+            <button id="submitBtn">Submit</button>
         </div>
         </>
     )
