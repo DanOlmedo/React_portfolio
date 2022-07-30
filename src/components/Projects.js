@@ -15,21 +15,27 @@ function Projects () {
   <div className="carInner">
     <div className="carousel-item active">
     <a href="https://github.com/KuiiMaldonado/BCash"> <img className="carImage" src={Cash} alt="Cash boomerang app" /></a> 
+    <a className="repoLink" href="https://github.com/KuiiMaldonado/BCash">Repository</a>
     </div>
     <div className="carousel-item">
      <a href="https://danolmedo.github.io/Nifty-weather-responsive-outfit-generator-/"> <img className="carImage" src={Nifty} alt="Nifty outfit creator app" /> </a>
+     <a className="repoLink" href="https://github.com/aeklf/BootcampProject01">Repository</a>
     </div>
     <div className="carousel-item">
      <a href="https://danolmedo.github.io/day_planner_homework/"> <img className="carImage" src={Scheduler} alt="Day scheduler app" /></a>
+     <a className="repoLink" href="https://github.com/DanOlmedo/day_planner_homework">Repository</a>
     </div>
     <div className="carousel-item">
      <a href="https://danolmedo.github.io/Personal_Portfolio/"> <img className="carImage" src={Gallery} alt="Personal portfolio" /></a>
+     <a className="repoLink" href="https://github.com/DanOlmedo/Personal_Portfolio">Repository</a>
     </div>
     <div className="carousel-item">
      <a href="https://github.com/DanOlmedo/README_generator"> <img className="carImage" src={Generator} alt="Readme generator" /></a>
+    <a className="repoLink" href="https://github.com/DanOlmedo/README_generator">Repository</a>
     </div>
     <div className="carousel-item">
      <a href="https://danolmedo.github.io/Score_keeeper/"> <img className="carImage" src={Keeper} alt="Score keeper" /></a>
+     <a className="repoLink" href="https://github.com/DanOlmedo/Score_keeeper">Repository</a>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

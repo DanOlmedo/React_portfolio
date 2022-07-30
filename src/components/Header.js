@@ -10,13 +10,13 @@ function Header(props) {
     <a className="nav-btn" href="#" onClick={()=> props.setPage("About")}>About me</a>
   </li>
   <li>
-    <a className="nav-btn" href="#" onClick={()=> props.setPage("Projects")}>Projects</a>
+    <a className="nav-btn" href="#" onClick={()=> props.setPage("Projects")}>Portfolio</a>
   </li>
   <li>
     <a className="nav-btn" href="#" onClick={()=> props.setPage("Contact")}>Contact</a>
   </li>
   <li>
-    <a className="nav-btn" href=".#contact">Social</a>
+    <a className="nav-btn" href="#" onClick={()=> props.setPage("Resume")}>Resume</a>
   </li>
   <li>
     <a className="nav-btn" href="#" onClick={()=> props.setPage("Full")}>Full page</a>

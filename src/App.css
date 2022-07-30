@@ -233,6 +233,15 @@ animation: greet 4s linear forwards;
   align-items: center;
 }
 
+.repoLink {
+  position: relative;
+  top: 0rem;
+  left: 30rem;
+  margin: 2rem;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
 @media (max-width: 500px) {
   .cards {
     display: flex;
@@ -391,4 +400,20 @@ animation: greet 4s linear forwards;
 
 .contactForm input, textarea {
   width: 50%;
+}
+
+.resume {
+  background-color: #767677;
+  margin: 2rem;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.resume h1, h2 {
+  margin: 1rem;
+  font-weight: bold;
 }

@@ -8,11 +8,12 @@ import Projects from './components/Projects';
 import Roof from './components/Roof';
 import Intro from './components/Intro';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 
 function App() {
 
-  const [page, setPage] = useState("Full");
+  const [page, setPage] = useState("About");
 
   function pageChanger(currentPage) {
     if (currentPage === "About") {
@@ -23,6 +24,9 @@ function App() {
     }
     else if (currentPage === "Contact") {
       return <Contact />
+    }
+    else if (currentPage === "Resume") {
+      return <Resume />
     }
     else if (currentPage === "Full") {
       return (
