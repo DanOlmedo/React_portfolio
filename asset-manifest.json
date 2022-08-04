@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.d025def1.css",
+    "main.js": "/react_portfolio/static/js/main.00c676a7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Nifty_1.PNG": "/react_portfolio/static/media/Nifty_1.0252fa36eac78a7a3414.PNG",
+    "static/media/Gallery.PNG": "/react_portfolio/static/media/Gallery.dac4c7269576fe486e1a.PNG",
+    "static/media/Cash_boomerang.PNG": "/react_portfolio/static/media/Cash_boomerang.a323891d5221662dccb9.PNG",
+    "static/media/avatar_1.jpg": "/react_portfolio/static/media/avatar_1.1b5d1d20602f93dea57d.jpg",
+    "static/media/day_scheduler_1.PNG": "/react_portfolio/static/media/day_scheduler_1.5e0fc6f710163a80f1b4.PNG",
+    "static/media/web_dev_cv.pdf": "/react_portfolio/static/media/web_dev_cv.e0eae3e5ea857b6a877c.pdf",
+    "static/media/roof_sil.svg": "/react_portfolio/static/media/roof_sil.d5689f05dc735a4956fa.svg",
+    "static/media/Generator.PNG": "/react_portfolio/static/media/Generator.5ae3387a1f60af343d17.PNG",
+    "static/media/Keeper.PNG": "/react_portfolio/static/media/Keeper.bd3f2b3fcf9f4ac0bd30.PNG",
+    "index.html": "/react_portfolio/index.html",
+    "main.d025def1.css.map": "/react_portfolio/static/css/main.d025def1.css.map",
+    "main.00c676a7.js.map": "/react_portfolio/static/js/main.00c676a7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d025def1.css",
+    "static/js/main.00c676a7.js"
+  ]
+}
