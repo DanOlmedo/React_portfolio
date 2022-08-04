@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3a659545.js",
+    "main.css": "/static/css/main.50354272.css",
+    "main.js": "/static/js/main.3782fee8.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Nifty_1.PNG": "/static/media/Nifty_1.0252fa36eac78a7a3414.PNG",
+    "static/media/Gallery.PNG": "/static/media/Gallery.dac4c7269576fe486e1a.PNG",
+    "static/media/Cash_boomerang.PNG": "/static/media/Cash_boomerang.a323891d5221662dccb9.PNG",
+    "static/media/avatar_1.jpg": "/static/media/avatar_1.1b5d1d20602f93dea57d.jpg",
+    "static/media/day_scheduler_1.PNG": "/static/media/day_scheduler_1.5e0fc6f710163a80f1b4.PNG",
+    "static/media/web_dev_cv.pdf": "/static/media/web_dev_cv.e0eae3e5ea857b6a877c.pdf",
+    "static/media/roof_sil.svg": "/static/media/roof_sil.d5689f05dc735a4956fa.svg",
+    "static/media/Generator.PNG": "/static/media/Generator.5ae3387a1f60af343d17.PNG",
+    "static/media/Keeper.PNG": "/static/media/Keeper.bd3f2b3fcf9f4ac0bd30.PNG",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3a659545.js.map": "/static/js/main.3a659545.js.map",
+    "main.50354272.css.map": "/static/css/main.50354272.css.map",
+    "main.3782fee8.js.map": "/static/js/main.3782fee8.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3a659545.js"
+    "static/css/main.50354272.css",
+    "static/js/main.3782fee8.js"
   ]
 }
